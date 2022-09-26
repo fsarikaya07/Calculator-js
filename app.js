@@ -103,7 +103,7 @@ btnDiv.addEventListener("click", (e) => {
   if (e.target.value === "=") {
     let result = eval(obj.firstValue + obj.symbol + obj.secondValue);
     let h1= document.createElement("h1");
-    h1.innerText = result
+    h1.innerText = `SONUÇ: ${result}`
     body.appendChild(h1)
     console.log(result);
     console.log(h1.innerText);
